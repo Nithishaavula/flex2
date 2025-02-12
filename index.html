@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+    }
+    .container{
+        display:flex;
+        flex-direction: column;
+        
+        
+        
+    }
+
+    .navbar{
+        display:flex;
+        list-style: none;
+        justify-content:space-between;
+        align-items: center;
+        background-color:white;
+        padding:20px;
+        position:fixed;
+        width:100%;
+    }
+    .nav {
+        display: flex;
+        gap:30px;
+      
+    }
+    a{
+        text-decoration: none;
+        color:rgb(33, 32, 30);
+        padding:10px;
+        
+    }
+      .nav>:hover.a{
+        background-color: black;
+        color:white;
+
+         }
+        .nav>:hover.b{
+        background-color:black;
+        color:white;
+        
+         }
+         .nav>:hover.c{
+        background-color:black;
+        color:white;
+         }
+
+.food img{
+    width:100%;
+}
+.pic{
+    
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display:flex;
+    flex-basis: 70% 30%;
+    justify-content:center;
+    gap:50px;
+    margin:90px;
+    padding:10px;
+    background-color:white;
+    
+}
+h1{
+    margin:20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+
+}
+p{
+    margin:20px;
+}
+.p1{
+    font-weight:lighter;
+    font-size:larger;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.p2{
+    font-weight:larger;
+    font-size:15px;
+    color:gray;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+center{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.form input{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding:20px;
+    width:100%;
+    margin:10px;
+    border-radius:10px;
+    border:none;
+}
+.p3{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:15px;
+    color:gray;
+}
+.img{
+    margin:20px;
+}
+
+
+</style>
+<body>
+   
+
+    <nav class="navbar">
+        <div>
+            <li id="logo">Gourmet a u Catering</li> 
+        </div>
+        <div class="nav">
+            <a href="#about"   class="a">About</a>
+            <a href="#menu" class="b">Menu</a>
+            <a href="#contact" class="c">Contact</a>
+       
+
+        </div>
+        
+    
+    </nav>
+
+    <div class="container">
+
+<div class="food">
+<img src="hamburger.jpg" alt="burger">
+</div>
+
+<div class="pic">
+
+<div><img src="tablesetting2.jpg" alt=""></div>
+<div><h1 id="about" >About Catering</h1>
+
+        <p>Tradition since 1889</p>
+        The Catering was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute iruredolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.We only use seasonal ingredients.
+          
+        </div>
+</div>
+
+
+<center><h1 id="menu">Our Menu</h1></center>
+<p class="p1">Bread Basket</p>
+<p class="p2">Assortment of fresh baked fruit breads and muffins 5.50</p>
+
+<p class="p1">Honey Almond Granola with Fruits</p>
+<p class="p2">Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p>
+
+<p class="p1">Belgian Waffle</p>
+<p class="p2">Vanilla flavored batter with malted flour 7.50</p>
+
+<p class="p1">Scrambled eggs</p>
+<p class="p2">Scrambled eggs, roasted red pepper and garlic, with green onions 7.50
+
+</p>
+
+<p class="p1">Blueberry Pancakes</p>
+<p class="p2">With syrup, butter and lots of berries 8.50</p>
+<div>
+    <img src="tablesetting.jpg" alt="" width="90%" height="500px" class="img">
+</div>
+
+
+
+<h1 id="contact">contact</h1>
+<p>We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste. Do not hesitate to contact us.</p>
+
+<p class="p3">Catering Service, 42nd Living St, 43043 New York, NY</p>
+<div class="form">
+<label for="name">You can also contact us by phone +91 8919399049 or email catering@catering.com, or you can send us a message here:
+    <input type="text" id="name" name="name" placeholder="Name">
+    <input type="text" placeholder="How many people" name="people">
+    <input type="date"  name="date">
+    <input type="text" placeholder="Message\speacial requirments">
+    <input type="submit" value="Send message">
+</label>
+</div>
+
+
+
+
+
+</div>
+</body>
+</html>
