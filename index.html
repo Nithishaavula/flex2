@@ -114,19 +114,43 @@ center{
 
 
 </style>
-    @media screen and (max-width:576){
-        .pic{
-        display:flex;
-        flex-direction:column;
-        justify-content:center;
-    width:100vw;
+   @media screen and (max-width: 600px) {
+    .container {
+        flex-direction: column;
+        padding: 10px;
     }
-        .food{
-        margin-top:8rem;
-        
-        }
-        .nav{
-        display:none;}
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+    }
+    .nav {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .pic {
+        flex-direction: column;
+        width: 100%;
+        margin: 20px 0;
+    }
+    .food img {
+        width: 100%;
+        height: auto;
+    }
+    h1 {
+        font-size: 1.5rem;
+    }
+    p {
+        font-size: 1rem;
+    }
+    .form input {
+        width: 100%;
+        padding: 15px;
+    }
+    .img {
+        width: 100%;
+        height: auto;
+    }
 }
 <body>
    
